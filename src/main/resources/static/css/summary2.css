@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+.modal-dialog {
+	max-width: 60%!important;
+	margin: 1.75rem auto!important;
+}
+
+.ms-container {
+	background: transparent url('./images/switch.png') no-repeat 50% 50%;
+	width: auto !important;
+}
+
+.ms-container .ms-selectable, .ms-container .ms-selection {
+	background: #fff!important;
+	color: #555555!important;
+	/* float: left!important; */
+	width: 47%!important;
+}
+
+.table_responsive table thead tr th{
+	vertical-align: middle;
+	text-align: left;
+}
+.ui-datepicker-year, .ui-datepicker-month{
+	padding: 0px;
+vertical-align: unset;
+}
+#startDate, #endDate{
+	background: #353c48;
+	color: white;	
+	width:193px
+}
+.top_btn li {
+	background: #09baee;
+	padding: 8px;
+	font-size: 18px;
+}
+
+.summarytable tbody tr td a:first-child{
+	color: #4ed7ff;
+	text-decoration: underline;
+}
+
+.ms-list, .modal-header, .modal-footer{
+	border: 1px solid #06c2f8!important;	
+}
+
+/* for close button */
+.modal-footer .btn.btn-secondary {
+    background-color: #06c2f8!important;
+    border-color: #06c2f8!important;
+}
+
+
+
+/** previous */
+
+.multiselect-container{
+	background: rgb(53, 60, 72) none repeat scroll 0% 0%;
+}
+
+.multiselect-container li a label{
+	color: white;
+}
+
+.toggle-off{
+color: white;
+}
+
+.toggle{
+margin-left: 10px !important;
+}
+
+.table form {
+	/* float: right; */
+}
+
+/* #customteamsdiv .dropdown-menu{
+    overflow-y: scroll;
+    height: 300px;
+    overflow-x: hidden;
+} */
+
+#customteamsdiv .dropdown-menu li div button {
+display:none;
+}
+

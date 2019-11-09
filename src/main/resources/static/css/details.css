@@ -1,0 +1,184 @@
+@charset "ISO-8859-1";
+
+#detail-table>thead>tr:first-child th:nth-child(1){
+padding: 0px;
+}    
+
+.table_section_two.detail_page {
+	width: 100%;
+}
+.table_section_two .bt-table {
+	width: 100%;
+}
+.table_section_two.detail_page div.table_top_header {
+	display: inline-block;
+	width: 90%;
+}
+
+#detail-table thead tr:nth-child(2) th:nth-last-of-type(2){ width:100px; }
+#detail-table thead tr:nth-child(3) th:nth-child(12){display:none!important;}
+#detail-table thead tr:nth-child(3) th:nth-child(13){display:none!important;}
+#top-detail-table thead tr:nth-child(2) th:nth-child(8){display: none!important;}
+#top-detail-table thead tr:nth-child(2) th:nth-child(9){display: none!important;}
+
+#tablediv .table .footable-header td:first-child, #tablediv .footable-header th:first-child #tablebody td{
+    width: 40px !important;
+    max-width: 40px !important;
+    min-width: 40px !important;
+}
+#tablediv .footable-header th:nth-child(3), #tablediv td:nth-child(3) #tablebody td{
+    text-align: center;
+    width: 140px;
+    max-width: 140px !important;
+    min-width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+tablediv .table{
+	 table-layout: fixed;	
+}
+
+#display-team{
+	font-size: 16px;
+}
+#top-detail-table th {
+	text-align: center;
+}
+
+#tablediv{
+	overflow: visible;	
+}
+.ui-datepicker-month, .ui-datepicker-year {padding: 0px;}
+
+.dropdown-toggle-detail{
+	
+        padding: 0px 35px 0px 10px !important;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        color: #fff!important;
+        width: -moz-fit-content !important;
+		width: max-content !important;
+		width: fit-content!important;
+    
+}
+
+#catagoryteamsitem{
+	background: #353c48;
+    border: 1px solid #009cff82;
+    max-height: 230px;
+	overflow: auto;
+}
+
+.table #catagoryteamsitem a{
+    background: #353c48;
+ /*    border: 1px solid #5394c5!important; */
+ color: white;
+}
+
+.table #catagoryteamsitem a:hover, .table #catagoryteamsitem a:focus {
+    color: #ffff!important;
+    text-decoration: none;
+    background-color: #009cff!important;
+}
+
+.dropdown-toggle-detail:hover{
+        color: #fff!important;
+	
+}
+
+.dropdown-toggle-detail:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.table_responsive.bt-table .top_btn li {
+	float: left;
+	width: 50% !important;
+	display: flex;
+	flex: 1;
+}
+.body_content.page_2 .table_responsive td {
+	text-align: center;
+	white-space: nowrap;
+	padding: 2px 5px;
+	border-right: 1px solid #ffffff5e;
+	width: 50px !important;
+}
+
+#timeinterval{
+	width: auto;
+	border-color: #cccccc;
+	padding: 0 27px 0 11px;
+	padding-left: 11px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	color: #fff;
+	background: #404040 url(../images/br_down.png) no-repeat calc(100% - 10px);
+	background-size: auto;
+	background-size: 12px;
+	font-size: 12px;
+	padding-left: 5px;
+	height: 25px;	
+}
+
+#toptimeinterval, .dropdown-toggle-detail {
+	height: 17px;
+	padding: 0px 0px 0px 4px;
+	width: 136px;
+	color: #fff;
+	-moz-appearance: none;
+	background: #002060 url(../images/br_down_white.png) no-repeat calc(100% - 10px);
+	border-color: #3e557e;
+	 border: 0px;
+	/*  border: 1px solid #5394c5; */
+	font-size:14px;
+	-webkit-appearance: none; -moz-appearance: none; appearance: none; -o-appearance: none;
+}
+
+/* #tablediv{
+	overflow-x: hidden;
+}
+ */
+
+.scrollTo-demo .demo-x{/* width:660px; */background-color:#252525}
+.scrollTo-demo .demo-yx{background-color:#424242}
+
+.scrollTo{font-size:14px}
+.scrollTo+.scrollTo{margin-top:20px}
+
+
+.btn.focus, .btn:focus{
+	
+	box-shadow: 0 0 0 -0.8rem rgba(0,123,255,.25)!important;
+}
+#Games .modal-dialog {
+	max-width: 400px;
+}
+#Games .modal-footer.okbtn {
+	padding: 0px;
+	display: inline-block;
+	margin-left: 20px;
+}
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+body{
+	padding-right: 0 !important; overflow:visible !important; 
+}
+#detail-table .noclass th {
+	padding: 5px 0;
+}
+#tablediv .footable-header th {
+	padding: 0px 0px;
+}
+
+#toptable th {
+	padding: 0px 0px !important;
+	width: 0px;
+	/* white-space: nowrap; */
+}
+.buttons li.btn-right a, .top_header ul li a{background:#00b0f0;    border: 1px solid #5394c5;border-radius: 5px; color: #fff; margin-left: 10px;width: 200px;}

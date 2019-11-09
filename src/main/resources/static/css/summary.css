@@ -1,0 +1,159 @@
+@charset "ISO-8859-1";
+
+ 	.boundry thead {
+	background: linear-gradient(to bottom, #2e77c8 0%,#00afc3 100%);
+	color: white;
+}
+
+body{
+	padding-right: 0 !important; overflow:visible !important; 
+}
+td.space_border, th.space_border{border-right: 3px solid #000!important ;}
+.table a{color: white; }
+.date {
+    display: inline-block !important;
+    position: relative;
+}
+.date .input-group-addon {
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    transform: translatey(-50%);
+}
+.table.table-dark.table-striped thead tr:nth-child(2) th {
+	padding: 5px 0;
+}
+#graphtable thead th {
+	background: #5394c5;
+	padding: 5px 0;
+	line-height: 19px;
+	color: #fff;
+	
+	font-family: Roboto-Medium;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+}
+#graphtable td:first-child a{color: #fff;}
+
+#graphtable tbody tr{
+	line-height: 100px!important;
+	height: 100px!important;
+	max-height: 100px!important;	
+}
+
+#tableheading .top_btn {
+	padding-left: 210px;
+}
+#customgroupdiv{
+	display: inline;
+border: 1px solid gray;
+padding-top: 9px;
+padding-bottom: 9px;
+border-radius: 6px;
+margin-left: 15px;
+}
+
+#startDate, #endDate{
+background:#fafafa;
+color: #000;
+border: 1px solid white;
+height: 31px;
+padding: 10px;
+border-color: #ffffff7d;
+border-radius: 0.25rem;
+width: 120px;
+}
+.bottom_header #calinput1, .bottom_header #calinput2 {
+	padding: 0 10px;
+	max-width: 100px;
+}
+
+#submitbtn:focus{
+	box-shadow: none!important;
+}
+#custom-div {
+	border-left: 1px solid #ffffffb3;
+	border-width: 2px;
+	height: 33px;
+	padding-left: 10px;margin-left: 10px;
+	width: 340px;
+	
+}
+#custom-div .form-group {
+	min-width: 174px;
+}
+#gamescount{
+	border-color: #ffffff7d;
+}
+/* #startDate, #endDate{
+	background: #353c48;
+	color: white;
+} */
+#catagoryteamsitem{
+	background: #353c48;
+    border: 1px solid #009cff82;
+    max-height: 230px;
+	overflow: auto;
+}
+
+
+.ui-datepicker-month, .ui-datepicker-year{
+padding: 0px;	
+}
+
+#dropdown-toggle:hover, #dropdown-toggle:focus,#otherdropdown:hover,#otherdropdown:focus,#spreaddropdown:hover,#spreaddropdown:focus,#totaldropdown:hover,#totaldropdown:focus{
+	color:white!important;
+}
+
+#dropdown-toggle{
+ /* background: #002060 url(../images/br_down_white.png) no-repeat right center */ 
+ background: #002060 url(../images/br_down_white.png) no-repeat calc(100% - 10px)!important;
+width: 100%;
+}
+.table #catagoryteamsitem a{
+    background: #353c48;
+ /*    border: 1px solid #5394c5!important; */
+}
+
+.table #catagoryteamsitem a:hover, .table #catagoryteamsitem a:focus {
+    color: #ffff!important;
+    text-decoration: none;
+    background-color: #009cff!important;
+}
+
+
+/* Specific CSS */
+.table-dark td:first-child, .table-dark th:first-child { border-right: 3px solid #000;  text-align: left;}
+.table tr td:nth-child(9), .table tr th:nth-child(9){{
+	display: table-cell;
+	background: white;
+	border-top: none;
+	border-bottom: none;
+}
+	
+.table tr td:first-child, .table tr th:first-child {
+	width: min-content !important;
+}
+
+
+.footable-filtering .form-control{
+    width: auto;
+    height: 34px;
+}
+
+.table-dark th form{
+	width: 190px;
+	float:left;
+}
+
+
+.okbtn>button{
+	    float: right;
+    padding: 3px 7px 2px 8px;
+}
+
+/* #tablename{
+style='background: #5394c5;padding: 8px;color: #fff;font-family: 'Roboto-Medium';font-size: 14px;text-align: center;'
+}
+ */
